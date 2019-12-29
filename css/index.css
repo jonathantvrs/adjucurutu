@@ -3,9 +3,24 @@
     src: url('../fonts/georgia.ttf') format('truetype');
 }
 
+html {
+    vertical-align: middle;
+}
+
 body {
+    margin-top: 15%;
     background-color: rgba(97, 97, 177, 0.637);
     font-family: 'Georgia';
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img#church-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
 
 h1#church-name {
@@ -15,8 +30,8 @@ h1#church-name {
 
 section#grid-menu {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
     max-width: 80%;
     margin: 0 auto;
 }
@@ -29,5 +44,6 @@ button {
     padding: 15px 32px;
     text-align: center;
     font-size: 15px;
+    text-decoration: none;
 }
 
