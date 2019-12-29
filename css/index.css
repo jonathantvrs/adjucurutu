@@ -6,7 +6,6 @@
 body {
     background-color: rgba(97, 97, 177, 0.637);
     font-family: 'Georgia';
-    vertical-align: middle;
 }
 
 h1#church-name {
@@ -16,7 +15,8 @@ h1#church-name {
 
 section#grid-menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
     max-width: 80%;
     margin: 0 auto;
 }
@@ -29,6 +29,5 @@ button {
     padding: 15px 32px;
     text-align: center;
     font-size: 15px;
-    margin: 5px;
 }
 
