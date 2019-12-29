@@ -41,9 +41,11 @@ button {
     border: none;
     border-radius: 2px;
     color:rgba(97, 97, 177, 0.637);
-    padding: 15px 32px;
+    padding: 20px;
     text-align: center;
     font-size: 15px;
     text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
 }
 
