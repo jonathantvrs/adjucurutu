@@ -47,5 +47,6 @@ button {
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
+    transition-duration: .4s;
 }
 
