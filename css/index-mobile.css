@@ -7,6 +7,9 @@
     section#grid-menu {
         grid-template-columns: 1fr;
     }
+    img#church-logo {
+        margin: 0 auto;
+    }
 }
 @media(min-width: 601px) and (max-width: 800px) {
     section#grid-menu {
