@@ -59,7 +59,7 @@ button::after {
     padding-left: 350%;
     margin-left: -20px !important;
     margin-top: -120%;
-    background: #f1f1f1;
+    background: rgba(97, 97, 177, 0.637);
     opacity: 0;
     transition: all 0.8s;
 
