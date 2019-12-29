@@ -1,13 +1,34 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/georgia.ttf') format('truetype');
+}
+
 body {
-    margin-top: 5em;
     background-color: rgba(97, 97, 177, 0.637);
+    font-family: 'Georgia';
+    vertical-align: middle;
+}
+
+h1#church-name {
+    color: white;
+    text-align: center;
+}
+
+section#grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 button {
     background-color: white;
     border: none;
+    border-radius: 2px;
     color:rgba(97, 97, 177, 0.637);
     padding: 15px 32px;
     text-align: center;
+    font-size: 15px;
+    margin: 5px;
 }
 
