@@ -1,0 +1,17 @@
+body {
+    margin-top: 5em;
+    background-color: rgba(97, 97, 177, 0.637);
+}
+
+.centralized {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link-portal {
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
