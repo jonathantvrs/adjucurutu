@@ -3,15 +3,11 @@ body {
     background-color: rgba(97, 97, 177, 0.637);
 }
 
-.centralized {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+button {
+    background-color: white;
+    border: none;
+    color:rgba(97, 97, 177, 0.637);
+    padding: 15px 32px;
+    text-align: center;
 }
 
-.link-portal {
-    color: white;
-    font-size: 40px;
-    margin: 10px;
-}
