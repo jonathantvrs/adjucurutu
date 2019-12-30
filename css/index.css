@@ -6,7 +6,6 @@
 html, body {
     background-color: rgba(162, 155, 254, 1.0);
     font-family: 'Georgia';
-    max-height: 100%;
 }
 
 div#content {
@@ -45,7 +44,6 @@ button {
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
-    transition-duration: .4s;
 }
 
 button:hover {
