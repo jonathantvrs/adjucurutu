@@ -12,13 +12,13 @@ html, body {
 div#content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 90vh;
 }
 
 img#church-logo {
-    display: block;
-    width: 150px;
-    height: 150px;
     margin: 0 auto;
+    display: block;
 }
 
 h1#church-name {
@@ -30,7 +30,6 @@ section#grid-menu {
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 80%;
     margin: 0 auto;
 }
 
