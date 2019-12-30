@@ -18,6 +18,7 @@ div#content {
 img#church-logo {
     margin: 0 auto;
     display: block;
+    filter: drop-shadow(-10px 0px 5px rgba(108, 92, 231,1.0));
 }
 
 h1#church-name {
