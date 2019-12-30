@@ -9,7 +9,7 @@ html {
 
 body {
     margin-top: 15%;
-    background-color: rgba(97, 97, 177, 0.637);
+    background-color: rgba(162, 155, 254, 1.0);
     font-family: 'Georgia';
     display: grid;
     grid-gap: 3px;
@@ -53,5 +53,5 @@ button {
 
 button:hover {
     color: white;
-    background: rgba(97, 97, 177, 0.9);
+    background: rgba(108, 92, 231,1.0);
 }
