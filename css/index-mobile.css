@@ -1,15 +1,12 @@
 @media(max-width: 500px) {
     body {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 }
 @media(max-width: 600px) {
     section#grid-menu {
         grid-template-columns: 1fr;
         width: 100%;
-    }
-    img#church-logo {
-        margin: 0 auto;
     }
 }
 @media(min-width: 601px) and (max-width: 800px) {
