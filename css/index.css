@@ -18,8 +18,8 @@ body {
 
 img#church-logo {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ h1#church-name {
 
 section#grid-menu {
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 8px;
     grid-template-columns: repeat(3, 1fr);
     max-width: 80%;
     margin: 0 auto;
@@ -51,23 +51,7 @@ button {
     transition-duration: .4s;
 }
 
-button::after {
-    content: "";
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
-    background: rgba(97, 97, 177, 0.637);
-    opacity: 0;
-    transition: all 0.8s;
-
-}
-
-button:active::after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s;
+button:hover {
+    color: white;
+    background: rgba(97, 97, 177, 0.9);
 }
