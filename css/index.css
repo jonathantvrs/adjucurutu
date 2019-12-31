@@ -1,26 +1,9 @@
-@font-face {
-    font-family: 'Georgia';
-    src: url('../fonts/georgia.ttf') format('truetype');
-}
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    font-family: 'Georgia';
-    background-color: rgba(97, 97, 177, 0.637);
-    height: 100%;
-}
-
-video {
-    opacity: 0.2;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+body {
+    background: linear-gradient(#9198e5, #ffffff, #9198e5);
+    font-family: 'Montserrat', sans-serif;
 }
 
 div#content {
@@ -37,14 +20,13 @@ img#church-logo {
 }
 
 h1#church-name {
-    color: white;
+    color: rgba(108, 92, 231, 0.5);
     text-align: center;
-    margin: 10px;
 }
 
 section#grid-menu {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 8px;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
 }
@@ -61,6 +43,7 @@ button {
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
+    transition: all 250ms ease-in;
 }
 
 button:hover {
