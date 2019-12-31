@@ -10,7 +10,8 @@
 
 html, body {
     font-family: 'Georgia';
-    background-color: black;
+    background-color: rgba(97, 97, 177, 0.637);
+    height: 100%;
 }
 
 video {
