@@ -38,6 +38,7 @@ img#church-logo {
 h1#church-name {
     color: white;
     text-align: center;
+    margin: 10px;
 }
 
 section#grid-menu {
